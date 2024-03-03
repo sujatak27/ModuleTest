@@ -1,0 +1,95 @@
+* {margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  #navbar {
+    border-bottom: 1px solid gray;
+    padding: 20px 20px;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #Loginbtn {
+    color: #2e80ec;
+    border: 2px solid #2e80ec;
+    background-color: white;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+  }
+ 
+  #btnapply {
+    background-color: #6361ed;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    border: none;
+    width: 150px;
+  }
+#placementreport{
+  width:400px;
+    height:50px;
+    border-radius: 10px;
+    background-color: rgb(0, 179, 255);
+    color :white
+}
+
+ #launch_start {
+    margin-top: 100px;
+    width: 95vw;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  
+  #about_launch {
+    width: 50%;   
+  }
+  
+#hiring{
+    width: 85%;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#hiringDetails{
+  display: flex;
+  justify-content: center;
+}
+#famewall{
+  justify-content: space-around;
+  align-items: center;
+}
+  
+  @media screen and (max-width: 480px) {
+    #navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+    #nav-links {
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      gap: 10px;
+    }
+    #launch_start {
+      flex-direction: column;
+  }
+}
+
+
+  
